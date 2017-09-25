@@ -1,5 +1,6 @@
-
 FROM docker:latest
+
+LABEL maintainer=https://github.com/qgadrian
 
 ENV PATH /google-cloud-sdk/bin:$PATH
 
